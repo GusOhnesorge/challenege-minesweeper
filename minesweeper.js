@@ -21,6 +21,8 @@ export const annotate = (input) => {
     for (let row = 0; row<input.length(); row++){
       input[row] = input[row].join()
     }
+
+  return input
 };
 
 function increment_coords_from_bomb(cur_row, cur_col, input){
